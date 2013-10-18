@@ -1,3 +1,5 @@
 require 'sinatra'
 
-puts 'Hola compadreeeeeeeeeeeeeee'
+get '/' do
+  "Hello, world"
+end
