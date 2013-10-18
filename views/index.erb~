@@ -1,7 +1,15 @@
 
 <div class="container"> 
-	<h1>Menú Principal</h1>
-	 
+	<h1>Infraestructura Virtual</h1>
+	 <h3> Práctica 1 - PaaS </h3>
+
 	<p><a href="/linea">Registro de líneas</a></p>
 	<p><a href="/listalineas">Listado de líneas</a></p>
 </div>
+
+.container
+	%h1 Infraestructura Virtual
+	%h3 Práctica 1 - PaaS
+
+	%p Una línea de texto
+	%p Segunda línea

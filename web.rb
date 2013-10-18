@@ -1,10 +1,7 @@
 require 'sinatra'
 require 'haml'
 
-get '/' do
-  erb :index
+get "/" do
+  haml :index
 end
 
-get '/' do
-  haml '%div.title Hello World'
-end
