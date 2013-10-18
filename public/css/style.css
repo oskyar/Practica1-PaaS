@@ -1,0 +1,12 @@
+h1{
+	color:red;
+}
+
+.container{
+	position: relative;
+	width: 1024px;
+	height: auto;
+	margin-left:auto;
+	margin-right:auto;
+	text-align: center;
+}

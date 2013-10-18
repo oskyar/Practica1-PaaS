@@ -1,0 +1,7 @@
+
+<div class="container"> 
+	<h1>Menú Principal</h1>
+	 
+	<p><a href="/linea">Registro de líneas</a></p>
+	<p><a href="/listalineas">Listado de líneas</a></p>
+</div>

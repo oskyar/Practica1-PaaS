@@ -1,5 +1,9 @@
 require 'sinatra'
 
 get '/' do
-  "HolaaaaaaaaaaaaA"
+  erb :index
+end
+
+get '/' do
+  haml '%div.title Hello World'
 end
