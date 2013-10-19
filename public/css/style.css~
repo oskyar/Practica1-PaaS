@@ -16,7 +16,10 @@ h1{
 	border: solid 1px #ABC;
 	background-color: #EEE;
 }
+<<<<<<< HEAD
 
 .datos{
-	font-color:red;
+	color:red;
 }
+=======
+>>>>>>> 99625c1a196e4d9c341e86f323229f384bfe2eed
