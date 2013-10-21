@@ -37,6 +37,9 @@ He usado Java con un framework llamado [wicket](http://wicket.apache.org/), muy 
 
 He utilizado esta tecnología porque me resulta muy cómodo una vez que empiezas a trabajar con ella, aunque eso si... la configuración puede llegar a ser bastante compleja aunque para eso está la ayuda de [maven](http://maven.apache.org/) [2](http://es.wikipedia.org/wiki/Maven).
 
+Cuando se empieza un proyecto desde cero, maven tiene una muy buena manera de ayudarnos a comenzar y es por medio de arquetipos, son como plantillas hechas por la gente que se pueden utilizar sin problema.
+
+
 
 ### Empezando con Heroku
 
@@ -80,20 +83,84 @@ Y te asigna un nombre de repositorio al azar (que se puede cambiar después con)
 
 Se sabe en qué aplicació estás porque se supone que estás dentro de la carpeta de la aplicación.
 
-Ó desde la página:
+Ó desde la [página](https://dashboard.heroku.com/apps):
+
+Si no hemos iniciado sesión lo hacemos.
+
+Y ahora tan fácil como seguir las instrucciones.
+
+![captura3](https://github.com/oskyar/Practica1-PaaS/blob/master/documentacion/3.%20creando%20aplicacion%20heroku.png);
+
+1. Escribimos el nombre de la aplicación.
+2. Le damos a "Create app" para crearla.
+
+![captura4](https://github.com/oskyar/Practica1-PaaS/blob/master/documentacion/4.%20Nombre%20de%20la%20aplicacion.png);
+
+
+A continuación podemos hacer dos cosas. 
+1. Clonarnos el repositorio y empezar a trabajar.
+
+ó
+
+2. Pinchar en [Get started with Heroku](https://devcenter.heroku.com/articles/quickstart) donde nos enseñarán como crear una aplicación rápidamente y de manera fácil ó eso dicen...
+
+![captura5](https://github.com/oskyar/Practica1-PaaS/blob/master/documentacion/5.%20Terminado%20.png);
+	
+
+Tenemos que tener en cuenta que debemos crear un archivo en la raíz de la carpeta de la aplicación llamada "Procfile".
+
+En este archivo guardaremos un script que lo ejecutará la instancia de Heroku al subir nuestra aplicación para que se ejecute.
+
+
+### Comandos rápidos de la aplicación de heroku
+
+Hay algunas aplicaciones que se tienen que crear así, para la aplicación de Heroku detecte qué Framework utilizamos para que él mismo suba la configuración o los archivos necesarios para desplegar la aplicación en el servidor.
+	
+	heroku create -s cedar
+
+Cambiar nombre a la aplicación:
+
+	heroku apps:rename NuevoNombre
+
+Eliminar la aplicación:
+
+	heroku apps:destroy NombreAplicacion
+
+	y después pedirá la confirmación del nombre de la aplicación.
+
+
+Añadir clave ssh a heroku
+
+	heroku keys:add <claveSsh.pub>
+
+Eliminarla
+
+	heroku keys:clean
+
+Ver nuestra aplicación desplegada y que nos redirija al navegador.
+
+	heroku open
+
+
+Y lo más importante...
+
+	git push heroku master
+
+para que suba todos los cambios y todo lo que necesite el servidor para desplegar la aplicación.
+
+
+### Aspecto de la [aplicación]().
 
 
 
-
-https://devcenter.heroku.com/articles/quickstart
 
 
 #### Bibliografía
 
-[](https://github.com/dashorst/heroku-wicket-quickstart)
++ [](https://github.com/dashorst/heroku-wicket-quickstart)
+ 
++ [](http://www.wicket-library.com/wicket-examples/index.html)
 
-[](http://www.wicket-library.com/wicket-examples/index.html)
++ [](https://devcenter.heroku.com/categories/java)
 
-[](https://devcenter.heroku.com/categories/java)
-
-[](https://devcenter.heroku.com/articles/getting-started-with-java)
++ [](https://devcenter.heroku.com/articles/getting-started-with-java)
