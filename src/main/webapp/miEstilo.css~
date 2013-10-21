@@ -62,7 +62,7 @@ h1{
 
 .pregunta{
 	position:relative;
-	width: 700px;
+	width: auto;
 	margin-top:20px;
 	font-size:1.2em;
 	font-weight:700;
@@ -83,6 +83,8 @@ h1{
 
 .feedback{
 position: relative;
+width: auto;
+height:25px;
 display: block;
 z-index: 100;
 width: auto;

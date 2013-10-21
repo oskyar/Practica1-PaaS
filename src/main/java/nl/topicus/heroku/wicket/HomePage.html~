@@ -18,7 +18,7 @@
 <h3>&iquest;Cu&aacute;nto sabes de Infraestructuras Virtuales?</h3>
 	<br><br>
             <form wicket:id="form">
-	        <span class="pregunta"><strong>Pregunta:</strong> <span wicket:id="pregunta"> </span> </span>
+	        <div class="pregunta"><strong>Pregunta:</strong> <span wicket:id="pregunta"> </span> </div>
 
 	
                 <input class="form-control boton" style="clear:left; width:200px" type="text" wicket:id="respuesta" />
@@ -27,6 +27,10 @@
             <br />
 	<div class="feedback" wicket:id="feedback"></div>
 	
+        </div>
+        
+        <div class="footer"> Imagen cogida de <a href="http://www.crefal.edu.mx/crefal2013/images/stories/novedades/2011_08_29_infraestructura_campus_crefal2.jpg"> aquí</a>
+        | Práctica realizada por <a href="https://github.com/oskyar"> Óscar Zafra </a>].
         </div>
     </body>
 
