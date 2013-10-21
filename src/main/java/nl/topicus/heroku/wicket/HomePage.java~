@@ -26,7 +26,7 @@ public class HomePage extends WebPage {
 		form.add(pregunta);
 
 		final TextField<String> areaRespuesta = new TextField("respuesta", new Model(""));
-		areaRespuesta.setOutputMarkupId(true);
+		areaRespuesta.setOutputMarkupId(true);‬
 		areaRespuesta.setRequired(true);
 		form.add(areaRespuesta);
 		Button evaluar = new Button("evaluar") {
@@ -34,7 +34,7 @@ public class HomePage extends WebPage {
 				String respuesta = areaRespuesta.getModelObject();
 				if (respuesta.equals("paravirtualizacion")) {
 					feedbackPanel
-							.info("¡Enhorabuena! ¡Has aprendido con JJ!");
+							.info("¡Enhorabuena! ¡Has aprendido mucho con JJ!");
 				} else {
 					feedbackPanel
 							.error("¡Error! Hay que estudiar un poquito más...");
