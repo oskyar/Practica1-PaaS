@@ -6,6 +6,7 @@
         <title>Practica1 - Infraestructura Virtual - PaaS</title>
         <link rel="stylesheet" href="style.css" type="text/css" media="screen" title="Stylesheet" />
         <link rel="stylesheet" href="miEstilo.css" type="text/css" media="screen" title="Stylesheet" />
+	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
     </head>
     
     <body>
