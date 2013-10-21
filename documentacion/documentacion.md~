@@ -37,6 +37,9 @@ He usado Java con un framework llamado [wicket](http://wicket.apache.org/), muy 
 
 He utilizado esta tecnología porque me resulta muy cómodo una vez que empiezas a trabajar con ella, aunque eso si... la configuración puede llegar a ser bastante compleja aunque para eso está la ayuda de [maven](http://maven.apache.org/) [2](http://es.wikipedia.org/wiki/Maven).
 
+Cuando se empieza un proyecto desde cero, maven tiene una muy buena manera de ayudarnos a comenzar y es por medio de arquetipos, son como plantillas hechas por la gente que se pueden utilizar sin problema.
+
+
 
 ### Empezando con Heroku
 
@@ -146,13 +149,20 @@ Y lo más importante...
 para que suba todos los cambios y todo lo que necesite el servidor para desplegar la aplicación.
 
 
+### Aspecto de la [aplicación](http://adivina-adivinanza.herokuapp.com/).
+
+![captura6](https://github.com/oskyar/Practica1-PaaS/blob/master/documentacion/6.%20aplicacion.png)
+
+
+
+
 
 #### Bibliografía
 
-[](https://github.com/dashorst/heroku-wicket-quickstart)
++ [](https://github.com/dashorst/heroku-wicket-quickstart)
+ 
++ [](http://www.wicket-library.com/wicket-examples/index.html)
 
-[](http://www.wicket-library.com/wicket-examples/index.html)
++ [](https://devcenter.heroku.com/categories/java)
 
-[](https://devcenter.heroku.com/categories/java)
-
-[](https://devcenter.heroku.com/articles/getting-started-with-java)
++ [](https://devcenter.heroku.com/articles/getting-started-with-java)
