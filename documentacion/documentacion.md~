@@ -148,6 +148,9 @@ Ver nuestra aplicación desplegada y que nos redirija al navegador.
 
 	heroku open
 
+Para depurar si hay errores en el servidor y no despliega.
+
+	heroku log
 
 Y lo más importante...
 
@@ -174,10 +177,10 @@ para que suba todos los cambios y todo lo que necesite el servidor para desplega
 
 #### Bibliografía
 
-+ [](https://github.com/dashorst/heroku-wicket-quickstart)
++ [https://github.com/dashorst/heroku-wicket-quickstart](https://github.com/dashorst/heroku-wicket-quickstart)
  
-+ [](http://www.wicket-library.com/wicket-examples/index.html)
++ [http://www.wicket-library.com/wicket-examples/index.html](http://www.wicket-library.com/wicket-examples/index.html)
 
-+ [](https://devcenter.heroku.com/categories/java)
++ [https://devcenter.heroku.com/categories/java](https://devcenter.heroku.com/categories/java)
 
-+ [](https://devcenter.heroku.com/articles/getting-started-with-java)
++ [https://devcenter.heroku.com/articles/getting-started-with-java](https://devcenter.heroku.com/articles/getting-started-with-java)

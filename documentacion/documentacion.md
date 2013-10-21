@@ -96,12 +96,12 @@ Si no hemos iniciado sesión lo hacemos.
 
 Y ahora tan fácil como seguir las instrucciones.
 
-[captura3](https://github.com/oskyar/Practica1-PaaS/blob/master/documentacion/3.%20creando%20aplicacion%20heroku.png);
+![captura3](https://dl.dropboxusercontent.com/u/3216105/Heroku/3.%20creando%20aplicacion%20heroku.png);
 
 1. Escribimos el nombre de la aplicación.
 2. Le damos a "Create app" para crearla.
 
-[captura4](https://github.com/oskyar/Practica1-PaaS/blob/master/documentacion/4.%20Nombre%20de%20la%20aplicacion.png);
+![captura4](https://dl.dropboxusercontent.com/u/3216105/Heroku/4.%20Nombre%20de%20la%20aplicacion.png);
 
 
 A continuación podemos hacer dos cosas. 
@@ -111,7 +111,7 @@ A continuación podemos hacer dos cosas.
 
 2. Pinchar en [Get started with Heroku](https://devcenter.heroku.com/articles/quickstart) donde nos enseñarán como crear una aplicación rápidamente y de manera fácil ó eso dicen...
 
-[captura5](https://github.com/oskyar/Practica1-PaaS/blob/master/documentacion/5.%20Terminado%20.png);
+![captura5](https://dl.dropboxusercontent.com/u/3216105/Heroku/5.%20Terminado%20.png);
 	
 
 Tenemos que tener en cuenta que debemos crear un archivo en la raíz de la carpeta de la aplicación llamada "Procfile".
@@ -148,6 +148,9 @@ Ver nuestra aplicación desplegada y que nos redirija al navegador.
 
 	heroku open
 
+Para depurar si hay errores en el servidor y no despliega.
+
+	heroku log
 
 Y lo más importante...
 
@@ -158,7 +161,7 @@ para que suba todos los cambios y todo lo que necesite el servidor para desplega
 
 ### Aspecto de la [aplicación](http://adivina-adivinanza.herokuapp.com/).
 
-[captura6](https://github.com/oskyar/Practica1-PaaS/blob/master/documentacion/6.%20aplicacion.png)
+![captura6](https://dl.dropboxusercontent.com/u/3216105/Heroku/6.%20aplicacion.png)
 
 
 
