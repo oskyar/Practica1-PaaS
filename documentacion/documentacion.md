@@ -96,12 +96,12 @@ Si no hemos iniciado sesión lo hacemos.
 
 Y ahora tan fácil como seguir las instrucciones.
 
-![captura3](https://github.com/oskyar/Practica1-PaaS/blob/master/documentacion/3.%20creando%20aplicacion%20heroku.png);
+[captura3](https://github.com/oskyar/Practica1-PaaS/blob/master/documentacion/3.%20creando%20aplicacion%20heroku.png);
 
 1. Escribimos el nombre de la aplicación.
 2. Le damos a "Create app" para crearla.
 
-![captura4](https://github.com/oskyar/Practica1-PaaS/blob/master/documentacion/4.%20Nombre%20de%20la%20aplicacion.png);
+[captura4](https://github.com/oskyar/Practica1-PaaS/blob/master/documentacion/4.%20Nombre%20de%20la%20aplicacion.png);
 
 
 A continuación podemos hacer dos cosas. 
@@ -111,7 +111,7 @@ A continuación podemos hacer dos cosas.
 
 2. Pinchar en [Get started with Heroku](https://devcenter.heroku.com/articles/quickstart) donde nos enseñarán como crear una aplicación rápidamente y de manera fácil ó eso dicen...
 
-![captura5](https://github.com/oskyar/Practica1-PaaS/blob/master/documentacion/5.%20Terminado%20.png);
+[captura5](https://github.com/oskyar/Practica1-PaaS/blob/master/documentacion/5.%20Terminado%20.png);
 	
 
 Tenemos que tener en cuenta que debemos crear un archivo en la raíz de la carpeta de la aplicación llamada "Procfile".
@@ -158,18 +158,26 @@ para que suba todos los cambios y todo lo que necesite el servidor para desplega
 
 ### Aspecto de la [aplicación](http://adivina-adivinanza.herokuapp.com/).
 
-![captura6](https://github.com/oskyar/Practica1-PaaS/blob/master/documentacion/6.%20aplicacion.png)
+[captura6](https://github.com/oskyar/Practica1-PaaS/blob/master/documentacion/6.%20aplicacion.png)
 
 
 
+
+### Dirección de los repositorios y aplicación.
+
++ [Repositorio GitHub](https://github.com/oskyar).
+
++ [Repositorio Práctica 1 - Paas](https://github.com/oskyar/Practica1-PaaS).
+
++ [Aplicación PaaS - Adivina adivinanza...](http://adivina-adivinanza.herokuapp.com/)
 
 
 #### Bibliografía
 
-+ [](https://github.com/dashorst/heroku-wicket-quickstart)
++ [https://github.com/dashorst/heroku-wicket-quickstart](https://github.com/dashorst/heroku-wicket-quickstart)
  
-+ [](http://www.wicket-library.com/wicket-examples/index.html)
++ [http://www.wicket-library.com/wicket-examples/index.html](http://www.wicket-library.com/wicket-examples/index.html)
 
-+ [](https://devcenter.heroku.com/categories/java)
++ [https://devcenter.heroku.com/categories/java](https://devcenter.heroku.com/categories/java)
 
-+ [](https://devcenter.heroku.com/articles/getting-started-with-java)
++ [https://devcenter.heroku.com/articles/getting-started-with-java](https://devcenter.heroku.com/articles/getting-started-with-java)
