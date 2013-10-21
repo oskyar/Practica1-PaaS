@@ -22,7 +22,7 @@ public class HomePage extends WebPage {
 
 		Label pregunta = new Label(
 				"pregunta",
-				"¿Qué tipo de virtualización requiere la modificación de los sistemas operativos?");
+				"Â¿QuÃ© tipo de virtualizaciÃ³n requiere la modificaciÃ³n de los sistemas operativos?");
 		form.add(pregunta);
 
 		final TextField<String> areaRespuesta = new TextField("respuesta", new Model(""));
@@ -34,10 +34,10 @@ public class HomePage extends WebPage {
 				String respuesta = areaRespuesta.getModelObject();
 				if (respuesta.equals("paravirtualizacion")) {
 					feedbackPanel
-							.info("¡Enhorabuena! ¡Has aprendido mucho con JJ!");
+							.info("Â¡Enhorabuena! Â¡Has aprendido mucho con JJ!");
 				} else {
 					feedbackPanel
-							.error("¡Error! Hay que estudiar un poquito más...");
+							.error("Â¡Error! Hay que estudiar un poquito mÃ¡s...");
 				}
 			}
 		};

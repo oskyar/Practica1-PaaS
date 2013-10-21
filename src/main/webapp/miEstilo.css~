@@ -9,7 +9,7 @@ body{
 	height:800px;
 	top:15px;
 	margin: 0 auto;
-	background-color:rgb(22, 0, 187);
+	background-color:rgba(233, 233, 233, 1);
 	-moz-box-shadow: 0px -1px 17px #dbdbdb;
 	-webkit-box-shadow: 0px -1px 17px #dbdbdb;
 	box-shadow: 0px -1px 17px #dbdbdb;
@@ -35,7 +35,7 @@ h1{
 	font-size: 2em;
 	font-weight: 900;
 	z-index: 3;
-	color: rgb(153, 14, 14);
+	color: rgb(22, 0, 187);
 	background-color: #fff;
 	border: dotted 2px #000000;
 	-moz-border-radius: 47px;
@@ -64,6 +64,8 @@ h1{
 	position:relative;
 	width: 700px;
 	margin-top:20px;
+	font-size:1.2em;
+	font-weight:700;
 }
 
 .acierto{
@@ -72,4 +74,18 @@ h1{
 
 .error{
 	color:red;
+}
+
+.boton{
+	position:relative;
+	float:left;
+}
+
+.feedback{
+position: relative;
+display: block;
+z-index: 100;
+width: auto;
+height: auto;
+float: left;
 }

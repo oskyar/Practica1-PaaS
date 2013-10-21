@@ -62,8 +62,10 @@ h1{
 
 .pregunta{
 	position:relative;
-	width: 700px;
+	width: auto;
 	margin-top:20px;
+	font-size:1.2em;
+	font-weight:700;
 }
 
 .acierto{
@@ -72,4 +74,18 @@ h1{
 
 .error{
 	color:red;
+}
+
+.boton{
+	position:relative;
+	float:left;
+}
+
+.feedback{
+position: relative;
+display: block;
+z-index: 100;
+width: auto;
+height: auto;
+float: left;
 }

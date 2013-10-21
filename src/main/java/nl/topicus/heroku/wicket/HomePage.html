@@ -12,18 +12,21 @@
     <body>
         <div class="container">
             <div class="titulo">Adivina adivinanza...</div>
-            <div class="descripcion">La aplicación trata sobre contestar la pregunta que se propone de manera muy sencilla, siempre con letras en minúscula, sin tildes y sin faltas de ortografía (jejeje...).</div>
+            <div class="descripcion">La aplicaci&oacute;n trata sobre contestar la pregunta que se propone de manera muy sencilla, siempre con letras en min&uacute;scula, sin tildes y sin faltas de ortograf&uacute;a (jejeje...).</div>
             
-<h3>¿Qué sabes de Infraestructuras Virtuales?</h3>
-
+            <br><br>
+<h3>&iquest;Cu&aacute;nto sabes de Infraestructuras Virtuales?</h3>
+	<br><br>
             <form wicket:id="form">
-	        <span wicket:id="pregunta"> </span>
+	        <div class="pregunta"><strong>Pregunta:</strong> <span wicket:id="pregunta"> </span> </div>
 
-                <input type="text" wicket:id="respuesta" />
-                <input type="submit" wicket:id="evaluar" value="Evaluar" />
+	
+                <input class="form-control boton" style="clear:left; width:200px" type="text" wicket:id="respuesta" />
+                <button type="submit" class="btn btn-primary boton" wicket:id="evaluar"><span class="glyphicon glyphicon-search"></span> Evaluar</button>
             </form>
-	<span wicket:id="feedback">Los mensajes saldrán aquí</span>
-
+            <br />
+	<div class="feedback" wicket:id="feedback"></div>
+	
         </div>
     </body>
 
