@@ -150,7 +150,7 @@ Ver nuestra aplicación desplegada y que nos redirija al navegador.
 
 Para depurar si hay errores en el servidor y no despliega.
 
-	heroku log
+	heroku logs
 
 Y lo más importante...
 
